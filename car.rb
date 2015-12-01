@@ -1,3 +1,4 @@
+require './mechanic.rb'
 class Car
   attr_reader :wheels, :oil
   def initialize
@@ -10,4 +11,9 @@ class Car
   end
 end
 
+ford = Car.new
+mech = Mechanic.new
 
+puts ford.wheels
+puts ford.oil
+puts ford.service(mech)
