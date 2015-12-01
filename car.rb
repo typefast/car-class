@@ -11,5 +11,3 @@ class Car
 end
 
 
-
-
